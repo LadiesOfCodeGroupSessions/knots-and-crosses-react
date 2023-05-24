@@ -11,6 +11,7 @@ const App = () => {
 		<div>
 			<h1>{heading}</h1>
 			<button type="button" onClick={handleClick}>
+				<
 				Update Heading
 			</button>
 		</div>
