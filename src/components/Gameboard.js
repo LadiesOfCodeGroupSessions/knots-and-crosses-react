@@ -1,8 +1,8 @@
 import React from 'react'
 
-// note here need to be able to select the spaces. The css needs setting/connecting for this
+// note here need to be able to select the spaces. The css needs setting/connecting for this 
 
-export const Gameboard = () => {
+export const Gameboard = (props) => {
   const [gameBoard, setGameBoard] = useState(["-", "-", "-", "-", "-", "-", "-", "-", "-"]);
   const [score, setScore] = useState("");
   const [winningPatterns, setWinningPatterns] = useState([
@@ -13,7 +13,7 @@ export const Gameboard = () => {
     [2, 5, 8],
     [2, 4, 6],
     [3, 4, 5],
-    [6, 7, 8],
+    [6, 7, 8]
   ]);
 
   function toggle(id) {
@@ -23,18 +23,14 @@ export const Gameboard = () => {
     })
   })
 }
-    const Square = (props) => {
-        return  <button>-</button>
-    }
-   
-  return (
-    
-    <div>
-    {
+const getBoard = (props) => {
+  return gameBoard;
+}
 
-    }
-    
-    
-    Gameboard</div>
-  )
+    return (
+      <div>
+      {}
+      Gameboard
+      </div>
+    )
 }
