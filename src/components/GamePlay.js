@@ -8,7 +8,7 @@ const GamePlay = (props) => {
       }
       return (
         <div>
-            <button className="state--title" type="button"  onClick={showGamehandler}>Start Game</button> 
+            <button className="state--title" type="button" onClick={showGamehandler}>Start Game</button> 
             <h2>{startGame ? "Game in play" : "Game not in play "}</h2>
         </div>
     )

@@ -1,13 +1,19 @@
-import React from 'react';
+import React from 'react'
+// import GamePlay from './components/GameBoard';
 import GamePlay from './components/GamePlay';
+import GameBoard from './components/GameBoard';
+// import Cell from './components/Cell';
 
 export default function App() {
 	
 	return (
-		<div>
+        <main>
 			<h1>Knots and Crosses</h1>
 			<GamePlay />
-		</div>
-	);
+			<GameBoard />
+			
+        </main>
+    )
+
 };
 
