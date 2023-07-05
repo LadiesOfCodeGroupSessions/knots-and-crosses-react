@@ -3,7 +3,9 @@ import classes from './Style.module.css'
 
 
 const Cell = (props) => {
-    // const {properties} = props
+    const cellDisplay = {
+        
+    }
    
     return (
         <div className={classes.cell}>{props.id}</div>

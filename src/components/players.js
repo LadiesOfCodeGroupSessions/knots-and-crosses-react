@@ -1,7 +1,17 @@
-// const [playerToken, setPlayerToken] = useState([{player1Token: "", player2Token: ""}]);
+import {useState} from 'react'
   
-//   let findplayers = Object.keys(playerToken);
-//   let result = playerToken.filter((player) => {
-//     return findplayers.includes(player.player1Token) || findplayers.includes((player.player2Token))
-//   })
-//   return result
+export default function PlayersTurn(props) {
+    const [playerToken, setPlayerToken] = useState(false);
+
+    const showplayerTurns = () => {
+        setPlayerToken(playerToken[0] !== playerToken[0])
+       }
+
+    return (
+        <div>
+            <button className="player-turn" type="button" onClick={showplayerTurns}>player turn</button> 
+            <h3>{playerToken.length === 0 ? "X" : "O"}</h3>
+        </div>
+    )
+
+}

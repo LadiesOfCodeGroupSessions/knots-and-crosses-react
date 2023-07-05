@@ -3,47 +3,47 @@
 export default [
     {
         id: 1,
-        X: "",
-        O: ""
+        X: false,
+        O: false
     },   
     {
         id: 2,
-        X: "",
-        O: ""
+        X: false,
+        O: false
     },   
     {
         id: 3,
-        X: "",
-        O: ""
+        X: false,
+        O: false
     },   
     {
         id: 4,
-        X: "",
-        O: ""
+        X: false,
+        O: false
     },   
     {
         id: 5,
-        X: "",
-        O: ""
+        X: false,
+        O: false
     },   
     {
         id: 6,
-        X: "",
-        O: ""
+        X: false,
+        O: false
     },  
     {
         id: 7,
-        X: "",
-        O: ""
+        X: false,
+        O: false
     },  
     {
         id: 8,
-        X: "",
-        O: ""
+        X: false,
+        O: false
     },  
     {
         id: 9,
-        X: "",
-        O: ""
+        X: false,
+        O: false
     }  
 ]
